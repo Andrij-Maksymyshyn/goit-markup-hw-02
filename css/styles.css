@@ -25,20 +25,20 @@ body {
 }
 
 /*Стилізація хедера*/
-
-.header-icon-web {
+.logo-header {
+    font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    color: var(--secondary-color);
+}
+
+.header-icon-web {
     color: var(--accent-color);
 }
 
 .header-icon-studio {
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
     color: var(--main-color);
 }
 
@@ -143,6 +143,10 @@ body {
 }
 
 /*Стилізація мейна Портфоліо*/
+.button-class {
+    font-family: inherit;
+}
+
 .button {
     font-weight: 500;
     font-size: 16px;
@@ -183,7 +187,6 @@ body {
     background-color: var(--hero-footer-color);
 }
 .footer-link {
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -191,13 +194,15 @@ body {
     color: var(--secondary-color);
 }
 
-.footer-icon-studio {
+.logo-footer {
+    font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--secondary-color);
 }
+
 .logo-footer:hover,
 .logo-footer:focus {
     color: var(--accent-color);
