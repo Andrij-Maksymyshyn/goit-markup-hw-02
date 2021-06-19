@@ -160,6 +160,7 @@ body {
 .button-current {
     color: var(--secondary-color);
     background-color: var(--accent-color);
+    cursor: pointer;
 }
 
 .portfolio-title {
