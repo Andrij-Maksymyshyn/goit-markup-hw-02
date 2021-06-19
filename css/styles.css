@@ -186,6 +186,7 @@ body {
 .footer {
     background-color: var(--hero-footer-color);
 }
+
 .footer-link {
     font-weight: 400;
     font-size: 14px;
@@ -213,4 +214,7 @@ body {
 .footer-link:focus {
     color: var(--accent-color);
     background-color: var(--secondary-color);
+}
+.footer-list {
+    font-style: normal;
 }
