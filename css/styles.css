@@ -18,9 +18,7 @@ body {
     list-style: none;
 }
 
-.header a,
-.footer a,
-.main-portfolio a {
+.link {
     text-decoration: none;
 }
 
@@ -46,20 +44,15 @@ body {
     color: var(--main-color);
 }
 
-.logo-header:hover,
-.logo-header:focus {
+.list-item-link-current {
     color: var(--secondary-color);
-    background-color: var(--p-text-color);
+    background-color: var(--accent-color);
 }
 
 .list-item-link:hover,
 .list-item-link:focus {
-    color: var(--accent-color);
-    background-color: var(--secondary-color);
-}
-
-.list-item-link-current {
-    color: var(--accent-color);
+    color: var(--secondary-color);
+    background-color: var(--accent-color);
 }
 
 .list-item {
@@ -127,18 +120,17 @@ body {
 
 .third-title {
     font-weight: 500;
-    font-size: 16px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    text-align: center;
 }
 
 .third-text {
     font-weight: 400;
-    font-size: 16px;
-    line-height: 1, 19;
-    letter-spacing: 0.03em;
     color: var(--p-text-color);
+}
+
+.united {
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
     text-align: center;
 }
 
@@ -156,11 +148,15 @@ body {
     color: var(--main-color);
     cursor: pointer;
 }
-
 .button-current {
     color: var(--secondary-color);
     background-color: var(--accent-color);
-    cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+    color: var(--secondary-color);
+    background-color: var(--accent-color);
 }
 
 .portfolio-title {
@@ -177,10 +173,6 @@ body {
     line-height: 1.88;
     letter-spacing: 0.03em;
     color: var(--p-text-color);
-}
-.portfolio-link:hover,
-.portfolio-link:focus {
-    background-color: var(--accent-color);
 }
 
 /*Стилізація футера*/
@@ -205,16 +197,10 @@ body {
     color: var(--secondary-color);
 }
 
-.logo-footer:hover,
-.logo-footer:focus {
-    color: var(--accent-color);
-    background-color: var(--p-text-color);
-}
-
 .footer-link:hover,
 .footer-link:focus {
-    color: var(--accent-color);
-    background-color: var(--secondary-color);
+    color: var(--secondary-color);
+    background-color: var(--accent-color);
 }
 .footer-list {
     font-style: normal;
