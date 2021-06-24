@@ -6,6 +6,7 @@
     --accent-color: #2196f3;
     --p-text-color: #757575;
     --hero-footer-color: #2f303a;
+    --our-team-color: #f5f4fa;
 }
 
 body {
@@ -45,14 +46,12 @@ body {
 }
 
 .list-item-link-current {
-    color: var(--secondary-color);
-    background-color: var(--accent-color);
+    color: var(--accent-color);
 }
 
 .list-item-link:hover,
 .list-item-link:focus {
-    color: var(--secondary-color);
-    background-color: var(--accent-color);
+    color: var(--accent-color);
 }
 
 .list-item {
@@ -107,7 +106,7 @@ body {
 }
 
 .our-team {
-    background-color: #f5f4fa;
+    background-color: var(--our-team-color);
 }
 
 .second-title {
@@ -199,9 +198,9 @@ body {
 
 .footer-link:hover,
 .footer-link:focus {
-    color: var(--secondary-color);
-    background-color: var(--accent-color);
+    color: var(--accent-color);
 }
+
 .footer-list {
     font-style: normal;
 }
